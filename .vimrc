@@ -3,6 +3,8 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+colorscheme delek
+
 set nocompatible                " choose no compatibility with legacy vi
 syntax on
 set encoding=utf-8
