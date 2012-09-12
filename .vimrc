@@ -3,7 +3,7 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-colorscheme delek
+colorscheme desert
 
 set nocompatible                " choose no compatibility with legacy vi
 syntax on
@@ -63,5 +63,5 @@ vnoremap <F1> <ESC>
 " highlight current column and row
 set cursorline
 set cursorcolumn
-highlight CursorLine cterm=NONE ctermbg=lightgray
-highlight CursorColumn cterm=NONE ctermbg=lightgray
+highlight CursorLine cterm=NONE ctermbg=blue
+highlight CursorColumn cterm=NONE ctermbg=blue
