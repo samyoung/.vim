@@ -65,3 +65,6 @@ set cursorline
 set cursorcolumn
 highlight CursorLine cterm=NONE ctermbg=blue
 highlight CursorColumn cterm=NONE ctermbg=blue
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
