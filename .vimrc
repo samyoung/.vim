@@ -68,3 +68,8 @@ highlight CursorColumn cterm=NONE ctermbg=blue
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
+
+" ctrlp
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_max_files = 0 " Unset cap of 10,000 files so we find everything
+
